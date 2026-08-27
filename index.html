@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="KAWA BORA — Le meilleur du café du Kivu. Café Arabica et Robusta, Grand Kivu, RDC.">
+<title>KAWA BORA</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ================================================================
+     HEADER / NAVIGATION
+     ================================================================ -->
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html" aria-label="KAWA BORA">
+      <img src="images/logo/kawa-bora-logo.png" alt="KAWA BORA">
+      <span>KAWA BORA</span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Menu" aria-expanded="false" aria-controls="mainNav">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="main-nav" id="mainNav" aria-label="Navigation principale">
+
+      <!-- ==================== ACCUEIL ==================== -->
+      <a class="nav-link active" href="index.html" data-nav="home">Accueil</a>
+
+      <!-- ==================== À PROPOS ==================== -->
+      <div class="nav-dropdown">
+        <button class="nav-dropdown-toggle" type="button" aria-expanded="false">À propos</span>
+        </button>
+
+        <div class="dropdown-menu">
+          <a href="pages/about.html">Notre histoire</a>
+
+          <!-- CE QUE NOUS FAISONS EST MAINTENANT ICI -->
+          <a href="pages/value-chain.html">Ce que nous faisons</a>
+
+          <a href="pages/about.html#team">Notre équipe</a>
+          <a href="pages/impact.html">Notre impact</a>
+        </div>
+      </div>
+
+      <!-- ==================== NOS CAFÉS ==================== -->
+      <div class="nav-dropdown">
+        <button class="nav-dropdown-toggle" type="button" aria-expanded="false">Nos cafés</span>
+        </button>
+        <div class="dropdown-menu">
+          <a href="pages/cafes.html#arabica">Café Arabica</a>
+          <a href="pages/cafes.html#robusta">Café Robusta</a>
+          <a href="pages/cafes.html#quality">Qualité & traçabilité</a>
+        </div>
+      </div>
+
+      <!-- =========================================================
+           MARCHÉS
+           Le mega-menu reste exactement dans le style V7.
+           Il est simplement repositionné vers la droite pour que
+           "Investir avec nous" reste toujours visible.
+           ========================================================= -->
+      <div class="nav-dropdown markets-dropdown">
+        <button class="nav-dropdown-toggle" type="button" aria-expanded="false">Marchés</span>
+        </button>
+
+        <div class="dropdown-menu mega-menu">
+
+          <!-- MARCHÉS -->
+          <div class="mega-column">
+            <div class="mega-title">Marchés</div>
+            <a href="pages/markets.html#local">Marché local</a>
+            <a href="pages/markets.html#regional">Marché régional</a>
+            <a href="pages/markets.html#international">Marché international</a>
+          </div>
+
+          <!-- PARTENAIRES -->
+          <div class="mega-column">
+            <div class="mega-title">Partenaires</div>
+            <a href="pages/partners.html">Partenaires</a>
+            <a href="pages/partners.html#commercial">Partenaires commerciaux</a>
+            <a href="pages/partners.html#technical">Partenaires techniques</a>
+            <a href="pages/partners.html#financial">Partenaires financiers</a>
+          </div>
+
+          <!-- INVESTIR AVEC NOUS -->
+          <div class="mega-column">
+            <div class="mega-title">Investir avec nous</div>
+            <a href="pages/invest.html">Investisseurs</a>
+            <a href="pages/invest.html#opportunity">Opportunité</a>
+            <a href="pages/invest.html#needs">Besoins d’investissement</a>
+            <a href="pages/invest.html#contact">Nous contacter</a>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- ==================== ÉVÉNEMENTS ==================== -->
+      <div class="nav-dropdown">
+        <button class="nav-dropdown-toggle" type="button" aria-expanded="false">Événements</span>
+        </button>
+        <div class="dropdown-menu">
+          <a href="pages/events.html#upcoming">Événements à venir</a>
+          <a href="pages/events.html#past">Événements passés</a>
+          <a href="pages/events.html#news">Actualités</a>
+        </div>
+      </div>
+
+      <!-- ==================== GALERIE / CONTACT ==================== -->
+      <a class="nav-link" href="pages/gallery.html" data-nav="gallery">Galerie</a>
+      <a class="nav-link" href="pages/contact.html" data-nav="contact">Contact</a>
+
+      <!-- ==================== LANGUE ==================== -->
+      
+
+    </nav>
+  </div>
+</header>
+
+<!-- ================================================================
+     PAGE : ACCUEIL
+     ================================================================ -->
+<main>
+<section class="hero">
+  <div class="hero-bg"><img src="images/gallery/station-kawa-bora.jpg" alt="Kawa Bora Grand Kivu"></div>
+  <div class="hero-overlay"></div>
+  <div class="container hero-content">
+    <div class="section-label">KAWA BORA · LE MEILLEUR DU CAFÉ DU KIVU</div>
+    <h1>Du producteur au marché.<br><span>De l'origine à la valeur.</span></h1>
+    <p>Kawa Bora est une entreprise congolaise engagée dans la chaîne de valeur du café Arabica et Robusta. Depuis le Grand Kivu, nous rapprochons les producteurs des marchés, préservons la qualité du café et développons des opportunités de valeur à chaque étape.</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="pages/about.html">Découvrir Kawa Bora</a>
+      <a class="btn btn-light" href="pages/cafes.html">Nos cafés</a>
+      <a class="btn btn-outline" style="border-color:rgba(255,255,255,.4);color:#fff" href="pages/invest.html">Investir avec nous</a>
+      
+    </div>
+    <div class="hero-stats">
+      <div class="hero-stat"><strong>854+</strong><span>Producteurs accompagnés</span></div>
+      <div class="hero-stat"><strong>3 330+</strong><span>Tonnes commercialisées localement depuis 2017</span></div>
+      <div class="hero-stat"><strong>574</strong><span>Femmes et jeunes mères impliquées</span></div>
+      <div class="hero-stat"><strong>2016</strong><span>Année de création</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container story">
+    <div>
+      <div class="section-label">NOTRE ORIGINE</div>
+      <h2>Du Kivu au monde.</h2>
+      <p class="large-text">Dans les hauts plateaux du Grand Kivu, entre les rives du lac Kivu et les pentes du Nyiragongo, des producteurs cultivent un café dont la richesse mérite d'être mieux connue et mieux valorisée.</p>
+      <a class="btn btn-primary" style="margin-top:25px" href="pages/value-chain.html">En savoir plus</a>
+    </div>
+    <div class="image-card"><img src="images/gallery/station-kawa-bora.jpg" alt="Station de séchage Kawa Bora"></div>
+  </div>
+</section>
+
+<section class="section soft-section">
+  <div class="container">
+    <div class="section-label">NOTRE PROMESSE</div>
+    <h2>Préserver la qualité.<br><span>Valoriser l'origine.</span><br>Créer davantage de valeur.</h2>
+    <p class="large-text" style="max-width:800px;margin-top:20px">Nous croyons que le développement de la filière café ne consiste pas seulement à produire et vendre davantage. Il consiste à mieux produire, mieux traiter, mieux commercialiser et progressivement transformer davantage de valeur localement.</p>
+  </div>
+</section>
+
+<section class="section green-section">
+  <div class="container">
+    <div class="section-label" style="color:#a8d7b8">UNE FILIÈRE. DES PRODUCTEURS. UN AVENIR.</div>
+    <h2 style="margin-top:12px">Créer de la valeur pour le café. <span>Créer des opportunités pour les personnes.</span></h2>
+    <p class="large-text" style="max-width:800px;margin-top:20px">Notre activité associe développement commercial, création d'emplois, accompagnement des producteurs, autonomisation des femmes et protection de l'environnement.</p>
+    <a class="btn btn-light" style="margin-top:28px" href="pages/impact.html">Découvrir notre impact</a>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container story">
+    <div class="image-card"><img src="images/gallery/cafe-vert.jpg" alt="Café vert Kawa Bora"></div>
+    <div>
+      <div class="section-label">NOTRE PROCHAINE ÉTAPE</div>
+      <h2>Transformer davantage ici.</h2>
+      <p class="large-text">Kawa Bora ambitionne de développer ses capacités de traitement et de transformation afin de renforcer la valeur ajoutée créée en République démocratique du Congo.</p>
+      <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:25px">
+        <a class="btn btn-primary" href="pages/invest.html">Construire avec nous</a>
+        <a class="btn btn-outline" href="pages/contact.html">Nous contacter</a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- ================================================================
+     FOOTER
+     ================================================================ -->
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <a class="brand footer-brand" href="index.html">
+        <img src="images/logo/kawa-bora-logo.png" alt="KAWA BORA"><span>KAWA BORA</span>
+      </a>
+      <p>Valoriser le café congolais.<br>Créer davantage de valeur.</p>
+    </div>
+    <div><h4>À propos</h4><a href="pages/about.html">À propos</a><a href="pages/cafes.html">Nos cafés</a><a href="pages/value-chain.html">Ce que nous faisons</a></div>
+    <div><h4>Impact</h4><a href="pages/markets.html">Marchés</a><a href="pages/partners.html">Partenaires</a><a href="pages/invest.html">Investir</a></div>
+    <div><h4>Contact</h4><a href="tel:+243994400185">+243 994 400 185</a><a href="tel:+243853270181">+243 853 270 181</a><a href="mailto:etablissementkawabora21@gmail.com">etablissementkawabora21@gmail.com</a><span>Mugunga · Goma · Nord-Kivu · RDC</span></div>
+  </div>
+  <div class="container footer-bottom"><span>© <span data-year></span> KAWA BORA.</span><span>RCCM : CD/GOM/RCCM/20-A-00544 · ID. NAT. : 19-G4701-N65793K</span></div>
+</footer><script src="js/main.js"></script><script src="js/menu.js"></script>
+<script></script></body></html>
